@@ -25,7 +25,7 @@ public:
         int total_time_steps;
         double Lx_min, Lx_max, Ly_min, Ly_max;
         double S = 2.0; 
-        double tol = 1.0e-12;
+        double tol = 1.0e-6;
         
         Parameters() : epsilon(0.01), lambda0(10.0), alpha(0.1), beta0(0.1),
                       dt(1e-5), dx(0.01), dy(0.01), Nx(100), Ny(100),
