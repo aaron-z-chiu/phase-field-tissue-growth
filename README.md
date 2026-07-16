@@ -1,14 +1,24 @@
-# phase-field-tissue-growth
-This repository contains the source code for the paper. It is used to generate the following results:
+# Phase-Field Tissue Growth
 
-* **Convergence Test:** Section 4.1
-* **2D Visualizations:**
-    * Section 4.2.1 (Figure 2, left)
-    * Section 4.2.2 (Figure 3, left)
+This repository contains the source code associated with the paper:
 
-## Authors
-Zecheng Qiu, Yutong Wu, Junxiang Yang* \
-\*Corresponding Author
+> Zecheng Qiu, Yutong Wu, and Junxiang Yang,  
+> “Phase-field modeling and simulation of two- and three-dimensional curvature-dependent tissue growth on surfaces,”  
+> *Physica D: Nonlinear Phenomena*, accepted for publication.
+
+The paper is currently available as a
+[preprint](https://dx.doi.org/10.2139/ssrn.6663678).
+This link will be updated to the final journal version once it becomes available online.
+
+The code implements a second-order stabilized semi-implicit ADI operator-splitting solver for curvature-dependent tissue growth on two- and three-dimensional surfaces.
+
+It is used to generate the following results reported in the paper:
+
+- **Temporal convergence test:** Section 4.1
+- **2D simulations and visualizations:**
+  - Section 4.2.1, Figure 2 (left)
+  - Section 4.2.2, Figure 3 (left)
+
 
 ## File Descriptions
 * `PhaseFieldModel.h` & `PhaseFieldModel.cpp`: Core C++ source and header files implementing the semi-implicit finite difference solver.
@@ -36,3 +46,13 @@ Run `make delete` in your terminal.
 
 **Warning**: Executing this command will **permanently remove** all generated data files (e.g., `.dat` files containing calculated results). This operation is irreversible. Please ensure you have backed up any critical results before proceeding.
 
+## Recommended BibTeX (preprint version; to be updated upon publication):
+```bibtex
+@article{qiu2026phase,
+  title={Phase-Field Modeling and Simulation of Two-and Three-Dimensional Curvature-Dependent Tissue Growth on Surfaces},
+  author={Qiu, Zecheng and Wu, Yutong and Yang, Junxiang},
+  journal={Available at SSRN 6663678},
+  doi = {10.2139/ssrn.6663678},
+  year={2026}
+}
+```
