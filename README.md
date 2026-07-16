@@ -46,7 +46,11 @@ Run `make delete` in your terminal.
 
 **Warning**: Executing this command will **permanently remove** all generated data files (e.g., `.dat` files containing calculated results). This operation is irreversible. Please ensure you have backed up any critical results before proceeding.
 
-## Recommended BibTeX (preprint version; to be updated upon publication):
+## Citation
+<!--If you use this code for your research, please cite our paper:-->
+
+
+If you use BibTeX, please use the following entry:
 ```bibtex
 @article{qiu2026phase,
   title={Phase-Field Modeling and Simulation of Two-and Three-Dimensional Curvature-Dependent Tissue Growth on Surfaces},
