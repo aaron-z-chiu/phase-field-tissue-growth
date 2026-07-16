@@ -1,6 +1,6 @@
 # Phase-Field Tissue Growth
 
-This repository contains the source code associated with *Phase-field modeling and simulation of two- and three-dimensional curvature-dependent tissue growth on surfaces*, accepted by *Physica D: Nonlinear Phenomena*.
+This repository provides the source code for the paper, *Phase-field modeling and simulation of two- and three-dimensional curvature-dependent tissue growth on surfaces*, accepted by *Physica D: Nonlinear Phenomena*.
 
 It is used to generate the following results reported in the paper:
 
@@ -9,7 +9,7 @@ It is used to generate the following results reported in the paper:
   - Section 4.2.1, Figure 2 (left)
   - Section 4.2.2, Figure 3 (left)
  
-## Author
+## Authors
 Zecheng Qiu, Yutong Wu, Junxiang Yang* \
 \*Corresponding Author
 
