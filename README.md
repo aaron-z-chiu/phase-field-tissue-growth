@@ -1,16 +1,6 @@
 # Phase-Field Tissue Growth
 
-This repository contains the source code associated with the paper:
-
-> Zecheng Qiu, Yutong Wu, and Junxiang Yang,  
-> “Phase-field modeling and simulation of two- and three-dimensional curvature-dependent tissue growth on surfaces,”  
-> *Physica D: Nonlinear Phenomena*, accepted for publication.
-
-The paper is currently available as a
-[preprint](https://dx.doi.org/10.2139/ssrn.6663678).
-This link will be updated to the final journal version once it becomes available online.
-
-The code implements a second-order stabilized semi-implicit ADI operator-splitting solver for curvature-dependent tissue growth on two- and three-dimensional surfaces.
+This repository contains the source code associated with *Phase-field modeling and simulation of two- and three-dimensional curvature-dependent tissue growth on surfaces*, accepted by *Physica D: Nonlinear Phenomena*.
 
 It is used to generate the following results reported in the paper:
 
@@ -18,6 +8,10 @@ It is used to generate the following results reported in the paper:
 - **2D simulations and visualizations:**
   - Section 4.2.1, Figure 2 (left)
   - Section 4.2.2, Figure 3 (left)
+ 
+## Author
+Zecheng Qiu, Yutong Wu, Junxiang Yang* \
+\*Corresponding Author
 
 
 ## File Descriptions
